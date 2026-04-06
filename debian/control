@@ -1,0 +1,12 @@
+Source: ros-humble-nebula-core-decoders
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, libpng++-dev, libpng-dev, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-autoware-cmake, ros-humble-nebula-core-common, ros-humble-ros-environment, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nebula-core-decoders
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, libpng++-dev, libpng-dev, ros-humble-nebula-core-common, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: Nebula Decoders Base Library

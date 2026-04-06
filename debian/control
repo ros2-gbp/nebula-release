@@ -1,0 +1,12 @@
+Source: ros-jazzy-continental-srvs
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-autoware-cmake, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-continental-srvs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: Services for Continental sensors

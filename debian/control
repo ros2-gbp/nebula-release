@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula-velodyne
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libyaml-cpp-dev, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-autoware-cmake, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-decoders, ros-jazzy-nebula-core-hw-interfaces, ros-jazzy-nebula-core-ros, ros-jazzy-nebula-msgs, ros-jazzy-nebula-velodyne-common, ros-jazzy-nebula-velodyne-decoders, ros-jazzy-nebula-velodyne-hw-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros-environment, ros-jazzy-ros-testing, ros-jazzy-ros-testing <!nocheck>, ros-jazzy-rosbag2-cpp <!nocheck>, ros-jazzy-velodyne-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula-velodyne
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libyaml-cpp-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-decoders, ros-jazzy-nebula-core-hw-interfaces, ros-jazzy-nebula-core-ros, ros-jazzy-nebula-msgs, ros-jazzy-nebula-velodyne-common, ros-jazzy-nebula-velodyne-decoders, ros-jazzy-nebula-velodyne-hw-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-velodyne-msgs, ros-jazzy-ros-workspace
+Description: Nebula Velodyne ROS Wrapper

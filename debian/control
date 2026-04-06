@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-nebula-continental, ros-jazzy-nebula-hesai, ros-jazzy-nebula-robosense, ros-jazzy-nebula-velodyne, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-nebula-continental, ros-jazzy-nebula-hesai, ros-jazzy-nebula-robosense, ros-jazzy-nebula-velodyne, ros-jazzy-ros-workspace
+Description: Nebula: multi-vendor LiDAR and radar driver

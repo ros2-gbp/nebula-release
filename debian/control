@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula-hesai-common
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-autoware-cmake, ros-jazzy-nebula-core-common, ros-jazzy-ros-environment, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula-hesai-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-nebula-core-common, ros-jazzy-ros-workspace
+Description: Nebula Common Hesai Libraries and headers

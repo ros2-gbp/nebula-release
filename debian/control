@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula-continental
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libyaml-cpp-dev, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-autoware-cmake, ros-jazzy-autoware-sensing-msgs, ros-jazzy-continental-msgs, ros-jazzy-continental-srvs, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geometry-msgs, ros-jazzy-message-filters, ros-jazzy-nebula-continental-common, ros-jazzy-nebula-continental-decoders, ros-jazzy-nebula-continental-hw-interfaces, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-ros, ros-jazzy-nebula-msgs, ros-jazzy-radar-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros-environment, ros-jazzy-ros-testing, ros-jazzy-ros-testing <!nocheck>, ros-jazzy-rosbag2-cpp <!nocheck>, ros-jazzy-sensor-msgs, ros-jazzy-sync-tooling-msgs, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula-continental
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-cpp-dev, ros-jazzy-autoware-sensing-msgs, ros-jazzy-continental-msgs, ros-jazzy-continental-srvs, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geometry-msgs, ros-jazzy-message-filters, ros-jazzy-nebula-continental-common, ros-jazzy-nebula-continental-decoders, ros-jazzy-nebula-continental-hw-interfaces, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-ros, ros-jazzy-nebula-msgs, ros-jazzy-radar-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-sync-tooling-msgs, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: Nebula Continental ROS Wrapper

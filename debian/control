@@ -1,0 +1,12 @@
+Source: ros-humble-nebula-robosense
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libyaml-cpp-dev, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-autoware-cmake, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-core-ros, ros-humble-nebula-msgs, ros-humble-nebula-robosense-common, ros-humble-nebula-robosense-decoders, ros-humble-nebula-robosense-hw-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-robosense-msgs, ros-humble-ros-environment, ros-humble-ros-testing, ros-humble-ros-testing <!nocheck>, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nebula-robosense
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libyaml-cpp-dev, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-core-ros, ros-humble-nebula-msgs, ros-humble-nebula-robosense-common, ros-humble-nebula-robosense-decoders, ros-humble-nebula-robosense-hw-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-robosense-msgs, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: Nebula Robosense ROS Wrapper

@@ -1,0 +1,12 @@
+Source: ros-humble-nebula-continental
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libyaml-cpp-dev, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-autoware-cmake, ros-humble-autoware-sensing-msgs, ros-humble-continental-msgs, ros-humble-continental-srvs, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-geometry-msgs, ros-humble-message-filters, ros-humble-nebula-continental-common, ros-humble-nebula-continental-decoders, ros-humble-nebula-continental-hw-interfaces, ros-humble-nebula-core-common, ros-humble-nebula-core-ros, ros-humble-nebula-msgs, ros-humble-radar-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros-environment, ros-humble-ros-testing, ros-humble-ros-testing <!nocheck>, ros-humble-rosbag2-cpp <!nocheck>, ros-humble-sensor-msgs, ros-humble-sync-tooling-msgs, ros-humble-tf2-ros, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nebula-continental
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-cpp-dev, ros-humble-autoware-sensing-msgs, ros-humble-continental-msgs, ros-humble-continental-srvs, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-geometry-msgs, ros-humble-message-filters, ros-humble-nebula-continental-common, ros-humble-nebula-continental-decoders, ros-humble-nebula-continental-hw-interfaces, ros-humble-nebula-core-common, ros-humble-nebula-core-ros, ros-humble-nebula-msgs, ros-humble-radar-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sync-tooling-msgs, ros-humble-tf2-ros, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Description: Nebula Continental ROS Wrapper

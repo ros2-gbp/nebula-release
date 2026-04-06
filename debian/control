@@ -1,0 +1,12 @@
+Source: ros-humble-nebula-velodyne
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libyaml-cpp-dev, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-autoware-cmake, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-core-ros, ros-humble-nebula-msgs, ros-humble-nebula-velodyne-common, ros-humble-nebula-velodyne-decoders, ros-humble-nebula-velodyne-hw-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros-environment, ros-humble-ros-testing, ros-humble-ros-testing <!nocheck>, ros-humble-rosbag2-cpp <!nocheck>, ros-humble-velodyne-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nebula-velodyne
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libyaml-cpp-dev, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-core-ros, ros-humble-nebula-msgs, ros-humble-nebula-velodyne-common, ros-humble-nebula-velodyne-decoders, ros-humble-nebula-velodyne-hw-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-velodyne-msgs, ros-humble-ros-workspace
+Description: Nebula Velodyne ROS Wrapper

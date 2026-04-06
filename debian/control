@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula-core-ros
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-autoware-cmake, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-nebula-core-common, ros-jazzy-rclcpp, ros-jazzy-ros-environment, ros-jazzy-ros-testing, ros-jazzy-ros-testing <!nocheck>, ros-jazzy-rosbag2-storage, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula-core-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-nebula-core-common, ros-jazzy-rclcpp, ros-jazzy-rosbag2-storage, ros-jazzy-ros-workspace
+Description: Nebula ROS Base Libraries

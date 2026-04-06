@@ -1,0 +1,12 @@
+Source: ros-humble-nebula-robosense-hw-interfaces
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-autoware-cmake, ros-humble-nebula-core-common, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-msgs, ros-humble-nebula-robosense-common, ros-humble-robosense-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nebula-robosense-hw-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-nebula-core-common, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-msgs, ros-humble-nebula-robosense-common, ros-humble-robosense-msgs, ros-humble-ros-workspace
+Description: Nebula HW Interfaces Robosense

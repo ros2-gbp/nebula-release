@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula-robosense-decoders
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jazzy-autoware-cmake, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-decoders, ros-jazzy-nebula-robosense-common, ros-jazzy-rclcpp, ros-jazzy-ros-environment, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula-robosense-decoders
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-decoders, ros-jazzy-nebula-robosense-common, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Description: Nebula Robosense Decoders Library

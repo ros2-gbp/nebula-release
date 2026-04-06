@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula-hesai
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-autoware-cmake, ros-jazzy-autoware-internal-debug-msgs, ros-jazzy-autoware-utils-debug, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-decoders, ros-jazzy-nebula-core-hw-interfaces, ros-jazzy-nebula-core-ros, ros-jazzy-nebula-hesai-common, ros-jazzy-nebula-hesai-decoders, ros-jazzy-nebula-hesai-hw-interfaces, ros-jazzy-nebula-msgs, ros-jazzy-pandar-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros-environment, ros-jazzy-ros-testing, ros-jazzy-ros-testing <!nocheck>, ros-jazzy-rosbag2-cpp <!nocheck>, ros-jazzy-sensor-msgs, ros-jazzy-sync-tooling-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula-hesai
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-jazzy-autoware-internal-debug-msgs, ros-jazzy-autoware-utils-debug, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-decoders, ros-jazzy-nebula-core-hw-interfaces, ros-jazzy-nebula-core-ros, ros-jazzy-nebula-hesai-common, ros-jazzy-nebula-hesai-decoders, ros-jazzy-nebula-hesai-hw-interfaces, ros-jazzy-nebula-msgs, ros-jazzy-pandar-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-sync-tooling-msgs, ros-jazzy-ros-workspace
+Description: Nebula Hesai ROS Wrapper

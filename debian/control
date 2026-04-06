@@ -1,0 +1,12 @@
+Source: ros-humble-nebula-hesai-decoders
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-humble-autoware-cmake, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-hesai-common, ros-humble-rclcpp, ros-humble-ros-environment, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nebula-hesai-decoders
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-hesai-common, ros-humble-rclcpp, ros-humble-ros-workspace
+Description: Nebula Hesai Decoders Library

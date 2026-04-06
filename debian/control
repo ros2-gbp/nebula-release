@@ -1,0 +1,12 @@
+Source: ros-humble-nebula-hesai
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-autoware-cmake, ros-humble-autoware-internal-debug-msgs, ros-humble-autoware-utils-debug, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-core-ros, ros-humble-nebula-hesai-common, ros-humble-nebula-hesai-decoders, ros-humble-nebula-hesai-hw-interfaces, ros-humble-nebula-msgs, ros-humble-pandar-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros-environment, ros-humble-ros-testing, ros-humble-ros-testing <!nocheck>, ros-humble-rosbag2-cpp <!nocheck>, ros-humble-sensor-msgs, ros-humble-sync-tooling-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-nebula-hesai
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-humble-autoware-internal-debug-msgs, ros-humble-autoware-utils-debug, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-nebula-core-common, ros-humble-nebula-core-decoders, ros-humble-nebula-core-hw-interfaces, ros-humble-nebula-core-ros, ros-humble-nebula-hesai-common, ros-humble-nebula-hesai-decoders, ros-humble-nebula-hesai-hw-interfaces, ros-humble-nebula-msgs, ros-humble-pandar-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sync-tooling-msgs, ros-humble-ros-workspace
+Description: Nebula Hesai ROS Wrapper

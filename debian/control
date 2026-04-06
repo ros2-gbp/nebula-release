@@ -1,0 +1,12 @@
+Source: ros-jazzy-nebula-continental-hw-interfaces
+Section: misc
+Priority: optional
+Maintainer: David Wong <david.wong@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-autoware-cmake, ros-jazzy-nebula-continental-common, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-hw-interfaces, ros-jazzy-nebula-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-nebula-continental-hw-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-nebula-continental-common, ros-jazzy-nebula-core-common, ros-jazzy-nebula-core-hw-interfaces, ros-jazzy-nebula-msgs, ros-jazzy-ros-workspace
+Description: Nebula HW Interfaces Continental

@@ -2,6 +2,21 @@
 Changelog for package nebula_continental
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.1 (2026-10-15)
+------------------
+* fix(nebula_continental): use agnocast_wrapper TF listener in ARS548 set_sensor_mounting (`#499 <https://github.com/tier4/nebula/issues/499>`_)
+  The ARS548 node died at startup under Agnocast because set_sensor_mounting still created a plain
+  tf2_ros::TransformListener, which `#469 <https://github.com/tier4/nebula/issues/469>`_ had not migrated to nebula::agnocast_wrapper.
+* Contributors: kazushi67
+
+1.3.0 (2026-09-29)
+------------------
+* chore(nebula_core_ros): follow upstream's agnocast_wrapper layout (`#495 <https://github.com/tier4/nebula/issues/495>`_)
+  The Continental wrapper now registers through nebula_agnocast_wrapper_register_node() and builds
+  the same Node class as nebula_core_ros, rather than emitting weak definitions of the same symbols
+  and starting an rclcpp::Node under an executable that brings up only the Agnocast context.
+* Contributors: Koichi Imai
+
 1.2.0 (2026-07-30)
 ------------------
 * feat(nebula_core_ros): make SyncToolingWorker compatible with agnocast_wrapper::Node (`#469 <https://github.com/tier4/nebula/issues/469>`_)

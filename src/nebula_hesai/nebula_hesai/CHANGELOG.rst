@@ -2,6 +2,26 @@
 Changelog for package nebula_hesai
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.1 (2026-10-15)
+------------------
+* fix(nebula_hesai): register the UDP receiver thread with the CIE thread configurator again (`#498 <https://github.com/tier4/nebula/issues/498>`_)
+  `#469 <https://github.com/tier4/nebula/issues/469>`_ dropped the thread factory that `#460 <https://github.com/tier4/nebula/issues/460>`_ had passed to HesaiHwInterface, leaving the UDP receive
+  thread a plain std::thread whose scheduling policy, priority, and affinity the Agnocast CIE thread
+  configurator could not set. The prerun template lists nebula_hesai_udp_receiver@<frame_id> again.
+* ci(pre-commit): autofix (`#500 <https://github.com/tier4/nebula/issues/500>`_)
+* Contributors: Max Schmeller, atsushi yano
+
+1.3.0 (2026-09-29)
+------------------
+* chore(nebula_core_ros): follow upstream's agnocast_wrapper layout (`#495 <https://github.com/tier4/nebula/issues/495>`_)
+  The Hesai wrapper now registers through nebula_agnocast_wrapper_register_node(), which selects
+  the ROS or Agnocast context at runtime instead of assuming an Agnocast-only executor.
+* fix(nebula_core_ros): build the synced agnocast_wrapper Node implementation (`#494 <https://github.com/tier4/nebula/issues/494>`_)
+  Drops the redundant USE_AGNOCAST_ENABLED definition, now exported PUBLIC by nebula_core_ros.
+* fix(nebula_hesai_decoders): drop scans whose timestamp was never set (`#493 <https://github.com/tier4/nebula/issues/493>`_)
+  Stops such scans from reaching the pointcloud publisher.
+* Contributors: Koichi Imai, lei.gu
+
 1.2.0 (2026-07-30)
 ------------------
 * feat(nebula_core_ros): make SyncToolingWorker compatible with agnocast_wrapper::Node (`#469 <https://github.com/tier4/nebula/issues/469>`_)
